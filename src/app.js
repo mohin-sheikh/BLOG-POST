@@ -29,7 +29,9 @@ mongoose.connection.on('open', () => {
 });
 
 const routes = require('./routes');
-
+app.get('/', (req, res) => {
+  res.send({ message: 'Welcome To Blog-Post Application' });
+})
 routes(app);
 
 // catch 404 and forward to error handler
