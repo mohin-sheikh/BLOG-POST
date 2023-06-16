@@ -1,0 +1,25 @@
+{
+  "name": "blog-post",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "@joi/date": "^2.1.0",
+    "argon2": "^0.30.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.2.0",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.4.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0",
+    "morgan": "~1.9.1",
+    "path": "^0.12.7"
+  }
+}
